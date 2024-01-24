@@ -1,0 +1,46 @@
+:root {
+  --c-main: #ffc20e;
+  --c-font-dark: #000;
+  --c-font-light: #ffffff;
+  --c-font-muted: #424242c7;
+  --c-back-gray: #efefef;
+  --c-back-light: #fff;
+}
+@font-face {
+  font-family: IRANSansWeb;
+  src: url(../font/IRANSansWeb.eot) format("eot");
+  src: url(../font/IRANSansWeb.ttf) format("ttf");
+  src: url(../font/IRANSansWeb.woff) format("woff");
+  /* numbers */
+  src: url("../font/IRANSansWeb(FaNum).eot");
+  src: url("../font/IRANSansWeb(FaNum).eot?#iefix") format("embedded-opentype"),
+    url("../font/IRANSansWeb(FaNum).woff2") format("woff2"),
+    url("../font/IRANSansWeb(FaNum).woff") format("woff"),
+    url("../font/IRANSansWeb(FaNum).ttf") format("truetype");
+}
+
+body,
+label,
+input,
+textarea,
+.MuiTypography-root,
+.MuiStepLabel-label,
+.MuiButtonBase-root,
+.MuiAlert-message,
+.MuiPickersCalendarHeader-label,
+.MuiPickersYear-yearButton {
+  font-family: IRANSansWeb !important;
+}
+body {
+  color: var(--c-font-dark);
+  background-color: var(--c-back-gray);
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}

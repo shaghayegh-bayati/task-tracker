@@ -1,0 +1,10 @@
+.nasa-section {
+  width: calc(100vw - 210px);
+  padding: 40px 30px;
+}
+@media only screen and (max-width: 767.5px) {
+  .nasa-section {
+    width: 100%;
+    padding: 30px 12px;
+  }
+}

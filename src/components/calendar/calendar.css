@@ -1,0 +1,23 @@
+.MuiStack-root > .MuiDateRangeCalendar-root > div {
+  display: none;
+}
+.MuiStack-root
+  > .MuiDateRangeCalendar-root
+  > div.MuiDateRangeCalendar-monthContainer {
+  display: block;
+}
+
+.MuiPickersDay-root.Mui-selected {
+  background-color: var(--c-main) !important;
+}
+.MuiDateRangePickerDay-rangeIntervalDayHighlight:not(
+    .MuiDateRangePickerDay-outsideCurrentMonth
+  ) {
+  background-color: #ffc20e29 !important;
+}
+.MuiPickersSlideTransition-root.MuiDayCalendar-slideTransition {
+  min-height: 250px !important;
+}
+.MuiDateRangeCalendar-root {
+  align-self: center;
+}

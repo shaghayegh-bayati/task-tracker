@@ -1,0 +1,29 @@
+.add-task {
+  width: calc(100vw - 210px);
+  padding: 40px;
+}
+.add-task-tit {
+  font-size: 22px;
+}
+.add-task-text {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.add-task-form {
+  width: 100%;
+  max-width: 500px;
+}
+.add-task-save-btn {
+  box-shadow: none;
+}
+.add-task-error {
+  font-size: 14px;
+  display: block;
+  color: red;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 767.5px) {
+  .add-task {
+    width: 100%;
+  }
+}

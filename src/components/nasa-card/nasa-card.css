@@ -1,0 +1,28 @@
+.nasa-card {
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.nasa-card-img {
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 100%;
+}
+.nasa-card-tit {
+  font-weight: bold;
+}
+.nasa-card-exp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+@media only screen and (max-width: 767.5px) {
+  .nasa-card-img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+  }
+}
